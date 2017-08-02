@@ -1,0 +1,28 @@
+{
+  "name": "url-shortener-microservice",
+  "version": "1.0.0",
+  "description": "shortens a url to a heoku-hosted short-url",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rharki/url-shortener-microservice.git"
+  },
+  "author": "rahul harkisanka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rharki/url-shortener-microservice/issues"
+  },
+  "homepage": "https://github.com/rharki/url-shortener-microservice#readme"
+}
